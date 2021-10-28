@@ -6,7 +6,7 @@
 #뭘 배울까
 
 
-<h4> 깃허브 프로그램 프레임워크 </h4>
+ <h4> 깃허브 프로그램 프레임워크 </h4>
 
     1. Jdkyll
 
@@ -21,5 +21,5 @@ https://hongdonghyun.github.io/2019/11/Hexo-Google-Analytics-%EC%97%B0%EB%8F%99%
 = 
 
 
-<h3>오늘 배운거 복습 :</h3>
+ <h3> 오늘 배운거 복습 :</h3>
 https://dschloe.github.io/settings/hexo_blog/
