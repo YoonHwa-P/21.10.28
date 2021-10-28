@@ -61,7 +61,7 @@ Hexo init를 하여 MyBlog를 만들어 보자
 - command line으로 저장소 생성 해 보자
 $ git clone **_your_git_repo_address.git_**
 
-    **_your_git_repo_address.git_**
+    **_your_git_repo_address.git_** : 나의 주소를 넣어야 한다. 
 - 
 
 <br>
