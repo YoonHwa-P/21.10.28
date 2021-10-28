@@ -1,0 +1,166 @@
+
+Myblog 만들기
+
+GREEN@G702-05 MINGW64 ~Desktopmyblog
+$ npm install
+up to date, audited 239 packages in 666ms
+
+15 packages are looking for funding
+  run `npm fund` for details
+found 0 vulnerabilities
+
+GREEN@G702-05 MINGW64 ~Desktopmyblog
+$ npm install hexo-server  --save
+
+up to date, audited 239 packages in 677ms
+15 packages are looking for funding
+  run `npm fund` for details
+found 0 vulnerabilities
+
+GREEN@G702-05 MINGW64 ~Desktopmyblog
+$ npm install hexo-deployer-git --save
+
+added 1 package, and audited 240 packages in 769ms
+15 packages are looking for funding
+  run `npm fund` for details
+found 0 vulnerabilities
+GREEN@G702-05 MINGW64 ~Desktopmyblog
+$ hexo server
+INFO  Validating config
+INFO  Start processing
+INFO  Hexo is running at httplocalhost4000 . Press Ctrl+C to stop.
+
+
+ Hexo server 넣으면 됨
+Bye!  Ctrl +c =취소
+
+
+GREEN@G702-05 MINGW64 ~Desktopmyblog (main)
+$ git commit -mfirst commit
+Author identity unknown
+
+ Please tell me who you are.
+
+Run
+
+  git config --global user.email you@example.com
+  git config --global user.name Your Name
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal unable to auto-detect email address (got 'GREEN@G702-05.(none)')
+
+Git hub와 연결되지 않아서 다시 
+
+GREEN@G702-05 MINGW64 ~Desktopmyblog (main)
+$ git push
+fatal The current branch main has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin main
+
+
+GREEN@G702-05 MINGW64 ~Desktopmyblog (main)
+$ git config --global user.email ssiasoda@gmail.com
+
+GREEN@G702-05 MINGW64 ~Desktopmyblog (main)
+$ git config --global user.name YoonHwa-P
+
+
+GREEN@G702-05 MINGW64 ~Desktopmyblog (main)
+$ git commit -m first commit
+[main (root-commit) f1509ea] first commit
+ 18 files changed, 4372 insertions(+)
+ create mode 100644 .githubdependabot.yml
+ create mode 100644 .gitignore
+ create mode 100644 .idea.gitignore
+ create mode 100644 .ideainspectionProfilesprofiles_settings.xml
+ create mode 100644 .ideamisc.xml
+ create mode 100644 .ideamodules.xml
+ create mode 100644 .ideamyblog.iml
+ create mode 100644 README.md
+ create mode 100644 README.mdgit
+ create mode 100644 _config.landscape.yml
+ create mode 100644 _config.yml
+ create mode 100644 package-lock.json
+ create mode 100644 package.json
+ create mode 100644 scaffoldsdraft.md
+ create mode 100644 scaffoldspage.md
+ create mode 100644 scaffoldspost.md
+ create mode 100644 source_postshello-world.md
+ create mode 100644 themes.gitkeep
+
+GREEN@G702-05 MINGW64 ~Desktopmyblog (main)
+$ git push
+fatal The current branch main has no upstream branch.
+To push the current branch and set the remote as upstream, use
+    git push --set-upstream origin main
+
+GREEN@G702-05 MINGW64 ~Desktopmyblog (main)
+$ git push --set-upstream origin main
+
+GREEN@G702-05 MINGW64 ~Desktopmyblog (main)
+$ git push --set-upstream origin main
+info please complete authentication in your browser...
+Enumerating objects 26, done.
+Counting objects 100% (2626), done.
+Delta compression using up to 8 threads
+Compressing objects 100% (1515), done.
+Writing objects 100% (2626), 48.30 KiB  9.66 MiBs, done.
+Total 26 (delta 0), reused 0 (delta 0), pack-reused 0
+To httpsgithub.comYoonHwa-Pmyblog.git
+  [new branch]      main - main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+
+
+
+ 
+수정
+# URL
+## Set your site url here. For example, if you use GitHub Page, set url as 'httpsusername.github.ioproject'
+url httpsYoonHwa-P.github.io
+
+
+
+deploy
+  type 'git'
+  repo httpsgithub.comYoonHwa-PYoonHwa-P.github.io.git
+  branch main
+
+GREEN@G702-05 MINGW64 ~Desktopmyblog (main)
+$ git add _config.yml
+
+GREEN@G702-05 MINGW64 ~Desktopmyblog (main)
+$ git status
+On branch main
+Your branch is up to date with 'originmain'.
+
+Changes to be committed
+  (use git restore --staged file... to unstage)
+        modified   _config.yml
+
+Untracked files
+  (use git add file... to include in what will be committed)
+        .ideavcs.xml
+
+GREEN@G702-05 MINGW64 ~Desktopmyblog (main)
+$ git commit -m uploadate _config.yml development n url
+[main c53c59e] uploadate _config.yml development n url
+ 1 file changed, 8 insertions(+), 6 deletions(-)
+
+GREEN@G702-05 MINGW64 ~Desktopmyblog (main)
+$ git push
+Enumerating objects 5, done.
+Counting objects 100% (55), done.
+Delta compression using up to 8 threads
+Compressing objects 100% (33), done.
+Writing objects 100% (33), 490 bytes  490.00 KiBs, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote Resolving deltas 100% (22), completed with 2 local objects.
+To httpsgithub.comYoonHwa-Pmyblog.git
+   f1509ea..c53c59e  main - main
+
+
+블로그가 생성 된 것을 알 수 있다. 
+OingTToin BLG (yoonhwa-p.github.io)

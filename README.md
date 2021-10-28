@@ -64,6 +64,15 @@ $ git clone **_your_git_repo_address.git_**
     **_your_git_repo_address.git_** : 나의 주소를 넣어야 한다. 
 - 
 
+https://ppoffice.github.io/hexo-theme-icarus/uncategorized/getting-started-with-icarus/#install-npm
+
+     npm install -S hexo-theme-icarus
+
+my blog에  설치 
+
+    theme: icarus
+
+
 <br>
 <br>
 <hr>
